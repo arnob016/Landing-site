@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Logo</h1>
+      <nav class="navibar">
+        <a href="navitem">Home</a>
+        <a href="navitem">About</a>
+        <a href="navitem">Pricing</a>
+        <a href="navitem">Contact</a>
+        <button class="nav-login">Login</button>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <div class="login-form">
+        <h2>Login</h2>
+        <form action="navitem">
+          <div class="input-box">
+            <span class="icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon">
+              <ion-icon name="key-outline"></ion-icon>
+            </span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remembe-forget">
+            <label>
+              <input type="checkbox" />
+              Remember Me
+            </label>
+            <a href="navitem">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't have an account?
+              <a href="navitem" class="link-register"> Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
